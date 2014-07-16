@@ -50,7 +50,7 @@ sudo python setup.py install
 cd /opt/graphite/conf
 sudo cp carbon.conf.example carbon.conf
 sudo cp storage-schemas.conf.example storage-schemas.conf
-sudo gedit storage-schemas.conf
+sudoedit storage-schemas.conf
 ### Replace contents of storage-schemas.conf to be the following
 [stats]
 priority = 110
