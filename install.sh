@@ -23,7 +23,8 @@ mv whisper-0.9.10 whisper
 rm graphite-web-0.9.10.tar.gz
 rm carbon-0.9.10.tar.gz
 rm whisper-0.9.10.tar.gz
-sudo apt-get install --assume-yes apache2 apache2-mpm-worker apache2-utils apache2.2-bin apache2.2-common libapr1 libaprutil1 libaprutil1-dbd-sqlite3 build-essential python3.2 python-dev libpython3.2 python3-minimal libapache2-mod-wsgi libaprutil1-ldap memcached python-cairo-dev python-django python-ldap python-memcache python-pysqlite2 sqlite3 erlang-os-mon erlang-snmp rabbitmq-server bzr expect ssh libapache2-mod-python python-setuptools
+sudo apt-get install -y apache2 apache2-mpm-worker apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3 build-essential python3 python3-dev libpython3.4 libapache2-mod-wsgi libaprutil1-ldap memcached sqlite3 erlang-os-mon erlang-snmp rabbitmq-server bzr expect ssh libapache2-mod-python python-setuptools
+
 sudo easy_install django-tagging
  
 sudo easy_install zope.interface
