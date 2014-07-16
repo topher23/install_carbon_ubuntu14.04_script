@@ -2,7 +2,9 @@
 # BASIC REQUIREMENTS
 # http://graphite.wikidot.com/installation
 # http://geek.michaelgrace.org/2011/09/how-to-install-graphite-on-ubuntu/
-# Last tested & updated 10/13/2011
+# Last updated July 16, 2014
+#original creation credit goes to jgeurts (github.com/jgeurts)
+#modification credit goes to myself (github.com/topher23)
 ####################################
  
 cd
